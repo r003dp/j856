@@ -1,0 +1,7 @@
+import random
+
+# 生成 1 到 100 的随机整数序列  
+random_integers = random.sample(range(1, 51), 50)
+
+# 打印生成的随机整数序列  
+print(random_integers)  
